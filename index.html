@@ -13,7 +13,6 @@
         <div id="slidenav" class="slidenav">
             <a  href="javascript:void(0)" class="close-me" id="closeicon" onclick="closnav()">&times;</a>
             <a href="#">HOME</a>
-
             <a href="#team">ABOUT US</a>
             <a href="#he">SERVICES</a>
             <a href="#nt">DIGITAL PRODUCTS</a>
@@ -30,8 +29,9 @@
         <h2>Welcome to Aesthetic Media Team</h2>
         <p>We mainly focus on creative and effective social media solutions</p>
         <div class="button-group">
-            <button class="button button-1" id="#contact">Join Us</button>
-            <button class="button button-1">Contact Us</button>
+            <button class="button button-1" id="contactButton" onclick="location.href='contact.html'">Join Us</button>
+            <button class="button button-1" onclick="window.location.href='mailto:laxmandeora887@gmail.com'">Contact Us</button>
+
         </div>
     </div>
 </div>
@@ -156,84 +156,60 @@
                 </div>
             </div>
         </section>
-         <section class="team" id="team">
-            <div class="member">
-                <h1>Testimonial</h1>
-                <div class="row">
-                    <div class="col-md-3 profile text-center">
-                        <div class="img-box">
-                            <img src="photos/forever chasing the sun!.jpg" class="img-responsive">
-                                <ul>
-                                    <a href="" target="_blank"><li><i class="fa-brands fa-linkedin"></i></li></a>
-                                    <a href="" target="_blank"><li><i class="fa-brands fa-x-twitter"></i></li></a>
-                                    <a href="" target="_blank"><li><i class="fa-brands fa-facebook"></i></li></a>
-                                </ul>
-                        </div>
-                        <h2>Piyaaa</h2>
-                        <h3>Instagram Influencer</h3>
-                        <p>Followers - 4382</p>
+
+
+
+
+        <section class="team-section" id="team">
+    <div class="team-member">
+        <h1 class="team-title">Testimonial</h1>
+        <div class="team-row">
+            <div class="team-profile">
+                <div class="profile-content">
+                    <!-- Image comes before text content -->
+                    <div class="profile-image">
+                        <img src="photos/2ndinfluencerinsta.jpg" class="image-testimonial">
                     </div>
-                    <div class="col-md-3 profile text-center">
-                        <div class="img-box">
-                            <img src="photos/2ndinfluencerinsta.jpg" class="img-responsive">
-                                <ul>
-                                    <a href="" target="_blank"><li><i class="fa-brands fa-linkedin"></i></li></a>
-                                    <a href="" target="_blank"><li><i class="fa-brands fa-x-twitter"></i></li></a>
-                                    <a href="" target="_blank"><li><i class="fa-brands fa-facebook"></i></li></a>
-                                </ul>
-                        </div>
-                        <h2>Vinisha</h2>
-                        <h3>Instagram Influencer</h3>
-                        <p>I would love to thank Krisha and Antara Ma’am and the team from @aprameya_in for helping me with my Instagram growth. Your advice and tips have really boosted my followers and made my post reach more people. My followers and reach is incredible now. I appreciate all the support you have provided in giving content ideas and looking forward to learning more from you.</p>
-                    </div>
-                    <div class="col-md-3 profile text-center">
-                        <div class="img-box">
-                            <img src="photos/3rdinflinsta.jpg" class="img-responsive">
-                                <ul>
-                                    <a href="" target="_blank"><li><i class="fa-brands fa-linkedin"></i></li></a>
-                                    <a href="" target="_blank"><li><i class="fa-brands fa-x-twitter"></i></li></a>
-                                    <a href="" target="_blank"><li><i class="fa-brands fa-facebook"></i></li></a>
-                                </ul>
-                        </div>
-                        <h2>Hello this is Palak Badlani @palakbadlanii</h2>
-                       <p>I would like to appreciate my manager (Sieyana) from @aprameya_in and their team for building my Instagram page.. I was having 3883 followers when we started working together and it’s been only 20 days and I’ve gained 200+ followers, and 5L+ accounts have reached my profile. I was not so consistent enough before but when someone plans my content and guides me what to shoot, what is trending, what hashtags to use, when to post, etc. I think it’s pretty easier for a content creator to be consistent on the platform and they have done a pretty decent job I must say!</p>
-                    </div>
-                    <div class="col-md-3 profile text-center">
-                        <div class="img-box">
-                            <img src="photos/4thinflinsta.jpg" class="img-responsive">
-                                <ul>
-                                    <a href="" target="_blank"><li><i class="fa-brands fa-linkedin"></i></li></a>
-                                    <a href="" target="_blank"><li><i class="fa-brands fa-x-twitter"></i></li></a>
-                                    <a href="" target="_blank"><li><i class="fa-brands fa-facebook"></i></li></a>
-                                </ul>
-                        </div>
-                        <h2>TRON</h2>
-                        <h3>Instagram Influencer</h3>
-                        <p>Followers - 2324</p>
+                    <div class="profile-text">
+                        <h2 class="profile-name">Vinisha</h2>
+                        <h3 class="profile-role">Instagram Influencer</h3>
+                        <p class="profile-description">I would love to thank Krisha and Antara Ma’am and the team from @aprameya_in for helping me with my Instagram growth. Your advice and tips have really boosted my followers and made my post reach more people. My followers and reach is incredible now. I appreciate all the support you have provided in giving content ideas and looking forward to learning more from you.</p>
+                        <ul class="social-links">
+                            <a href="" target="_blank" class="social-link"><li><i class="fa-brands fa-linkedin"></i></li></a>
+                            <a href="" target="_blank" class="social-link"><li><i class="fa-brands fa-x-twitter"></i></li></a>
+                            <a href="" target="_blank" class="social-link"><li><i class="fa-brands fa-facebook"></i></li></a>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="he" id ="he">
-            <h1>Our Services</h1>
-            <div class="ma">
-                <div class="service">
-                    <i class="fa-solid fa-icons"></i>
-                    <h2>Social Media Management</h2>
-                    <p>Platform Strategy,Content creation and Scheduling, Community Engagement and Analytics and Reporting</p>
-                </div>
-                <div class="service">
-                    <i class="fa-solid fa-users-rays"></i>
-                    <h2>Creative Campaigns</h2>
-                    <p>Concept Development,Multimedia Production,Campaign Execution and Metrics and Analysis</p>
-                </div>
-                <div class="service">
-                    <i class="fa-regular fa-handshake"></i>
-                    <h2>Influencer Partnerships</h2>
-                    <p>Influencer Identification,Negotiation and Collabiration and performance tracking</p>
+            <div class="team-profile">
+                <div class="profile-content">
+                    <!-- Image comes before text content -->
+                    <div class="profile-image">
+                        <img src="photos/3rdinflinsta.jpg" class="image-testimonial">
+                    </div>
+                    <div class="profile-text">
+                        <h2 class="profile-name">Palak Badlani @palakbadlanii</h2>
+                        <h3 class="profile-role">Instagram Influencer</h3>
+                        <p class="profile-description">I would like to appreciate my manager (Sieyana) from @aprameya_in and their team for building my Instagram page. I was having 3883 followers when we started working together and it’s been only 20 days and I’ve gained 200+ followers, and 5L+ accounts have reached my profile. I was not so consistent before but when someone plans my content and guides me on what to shoot, what is trending, what hashtags to use, when to post, etc., I think it’s pretty easier for a content creator to be consistent on the platform and they have done a pretty decent job I must say!</p>
+                        <ul class="social-links">
+                            <a href="" target="_blank" class="social-link"><li><i class="fa-brands fa-linkedin"></i></li></a>
+                            <a href="" target="_blank" class="social-link"><li><i class="fa-brands fa-x-twitter"></i></li></a>
+                            <a href="" target="_blank" class="social-link"><li><i class="fa-brands fa-facebook"></i></li></a>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </div>
+</section>
+
+
+
+
+         
+
+
         <section class="nt" id="nt">
             <h1>Digital Products</h1>
             <div class="hk">
@@ -300,12 +276,12 @@
             </div>
         </section>
        
-          <section class="contact" id="contact" >
+          <section class="contact" id="contact">
           <div class="content">
               <h2>Contact Us</h2>
           </div>
           <div class="container">
-                      <form >
+                      <form ">
                           <input type="text" id="name" class="input-field" placeholder="Your Name" required>
                           <input type="email"  id="email" class="input-field" placeholder="Email" required>
                           <input type="text"  id="phone" class="input-field" placeholder="Phone Number" required>

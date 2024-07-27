@@ -7,6 +7,7 @@
 html {
   scroll-behavior: smooth;
 }
+
 .logo img {
   height: 45px;
 
@@ -629,6 +630,7 @@ form {
   align-items: center;
   font-size: 30px;
 }
+
 .term {
   justify-content: space-around;
   margin: 0%;
@@ -656,4 +658,98 @@ form {
 }
 .policy p {
   color: white;
+}
+
+.team-section {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+.team-title {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.team-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.team-profile {
+  width: 100%;
+}
+
+.profile-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.profile-name {
+  font-size: 1.5em;
+}
+
+.profile-role {
+  font-size: 1.2em;
+  color: #555;
+}
+
+.profile-description {
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.social-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.social-links li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.profile-image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.image-testimonial {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border: 4px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.image-testimonial:hover {
+  border-color: #007bff;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  filter: brightness(1.1);
+}
+
+@media (min-width: 720px) {
+  .team-profile {
+    width: 48%;
+  }
+
+  .profile-content {
+    flex-direction: column;
+  }
 }
